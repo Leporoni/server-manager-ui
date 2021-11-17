@@ -5,7 +5,7 @@ export interface CustomResponse {
     statusCode: number;
     status: string;
     reason: string;
-    messagem: string;
+    message: string;
     developerMessage: string;
     data: { servers?: Server[], server?: Server };
 }
